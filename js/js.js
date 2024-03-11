@@ -8,6 +8,15 @@ function fullName(first, last) {
 	return `${first} ${last}`
 }
 
+// TODO: foo
+
+/**
+ *  fake docs
+ */
+export function foo() {
+	// TODO: what	
+}
+
 const firstName = "Srijan"
 const lastName = "Paul"
 export const myName = fullName(firstName, lastName)

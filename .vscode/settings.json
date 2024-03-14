@@ -1,0 +1,5 @@
+{
+  "deepsource.highlightIssues": true,
+  "deepsource.showCodelens": true,
+  "deepsource.highlightAffectedLines": true
+}

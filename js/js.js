@@ -1,26 +1,7 @@
+// TODO: this is a deepsauce issue
 
-/**
- * @param {string} first first name
- * @param {string} last  last name
- * @returns full name
- */
-function fullName(first, last) {
-	return `${first} ${last}`
+// fake doc comment
+export function make1() {
+	debugger;
+	return 1;
 }
-
-// TODO: foo
-
-/**
- *  fake docs
- */
-export function foo() {
-	// TODO: what	
-}
-
-const firstName = "Srijan"
-const lastName = "Paul"
-export const myName = fullName(firstName, lastName)
-
-debugger;
-
-// TODO: a TODO comment

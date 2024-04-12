@@ -1,3 +1,5 @@
+# DeepSource configuration file
+# Learn how to configure: https://docs.deepsource.com/docs/configuration
 version = 1
 exclude_patterns = [
   "node_modules",
@@ -6,17 +8,13 @@ exclude_patterns = [
   "bin",
   "build",
   "dist",
-  "venv",
 ]
 test_patterns = [
-  "**/test/**",
-  "**/*Test*.java",
   "**/__tests__/**",
   "**/*.spec.ts",
   "**/*.spec.js",
   "**/*.test.ts",
   "**/*.test.js",
-  "**/test_*.py",
 ]
 
 [[analyzers]]
